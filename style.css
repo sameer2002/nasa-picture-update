@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 98%;
+    margin: auto;
+
+    
+}
+.container1{
+    width: 100%;
+    background-color: black;
+}
+.data-show{
+    background-color: black;
+    width: 98%;
+    margin: auto;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.data-show>h1{
+    margin-top: 20px;
+    color: white;
+}
+.data-show>h4{
+    color: white;
+}
+.data-show>p{
+    color: white;
+    margin-bottom: 20px;
+}
+.data-show>img{
+    width: 100%;
+    max-height: 53vh;
+    object-fit: cover;
+}
+#search-history{
+    cursor: pointer;
+}
